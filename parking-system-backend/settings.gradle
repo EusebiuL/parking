@@ -1,0 +1,11 @@
+rootProject.name = 'parking.system'
+
+include 'ps-server'
+include 'ps-user'
+include 'ps-auth'
+include 'ps-notifications'
+include 'ps-report'
+include 'ps-parking'
+include 'ps-user-service'
+include 'ps-report-service'
+include 'ps-parking-service'

@@ -1,0 +1,52 @@
+
+buildscript {
+
+    ext {
+        springBootVersion = '2.1.2.RELEASE'
+    }
+
+    repositories {
+        gradlePluginPortal()
+    }
+
+    dependencies {
+        classpath "org.springframework.boot:spring-boot-gradle-plugin:$springBootVersion"
+    }
+
+}
+
+project('ps-server') {}
+
+project('ps-user') {}
+
+project('ps-auth') {}
+
+project('ps-report') {}
+
+project('ps-parking') {}
+
+project('ps-notifications') {}
+
+project('ps-user-service') {}
+
+project('ps-report-service') {}
+
+project('ps-parking-service') {}
+
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'io.spring.dependency-management'
+
+    sourceCompatibility = 1.8
+
+    repositories {
+        mavenCentral()
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.boot:spring-boot-dependencies:$springBootVersion"
+        }
+    }
+}

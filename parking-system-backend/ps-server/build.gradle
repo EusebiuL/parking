@@ -1,0 +1,15 @@
+
+dependencies {
+
+    compile project(':ps-user')
+    compile project(':ps-auth')
+    compile project(':ps-parking')
+    compile project(':ps-parking-service')
+    compile project(':ps-report')
+    compile project(':ps-report-service')
+    compile project(':ps-user-service')
+    compile project(':ps-notifications')
+
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+}

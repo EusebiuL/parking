@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="parking.system_main" target="1.8" />
+      <module name="parking.system_test" target="1.8" />
+      <module name="ps-_main" target="1.8" />
+      <module name="ps-_test" target="1.8" />
+      <module name="ps-par_main" target="1.8" />
+      <module name="ps-par_test" target="1.8" />
+      <module name="ps-report-srrvi_main" target="1.8" />
+      <module name="ps-report-srrvi_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="HaskellBuildOptions">
+    <ghcPath>/usr/local/bin/ghc</ghcPath>
+    <cabalPath>/usr/local/bin/cabal</cabalPath>
+    <stackPath>/usr/local/bin/stack</stackPath>
+  </component>
+</project>
