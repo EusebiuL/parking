@@ -14,12 +14,6 @@ class Login extends Component {
         scope: "",
         token_type: ""
     };
-    /* 
-    http://108fb526.ngrok.io/oauth/token?
-    grant_type=password&
-    username=alexandrupetrutstoica1@gmail.com
-    &password=admin
-    */
     handleChange = e => {
         this.setState({
           [e.target.id]: e.target.value,

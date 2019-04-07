@@ -49,7 +49,7 @@ class Register extends Component {
       
          
          <div className={classes.outerdiv}>
-            <Link to="/home" className={classes.homeButton}>Home</Link>
+        
             <RegisterForm 
                 change={(event) => this.handleChange(event)} 
                 submit={this.handleSubmit}  
