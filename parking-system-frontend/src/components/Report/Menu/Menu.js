@@ -8,8 +8,8 @@ class Menu extends Component {
         return (
             <header className={classes.menuWrapper}>
                 <ul>
-                <li><Link to="/register" className={classes.link}>Register</Link></li>
-                <li><Link to="/login" className={classes.link}>Login</Link></li>
+                <li><Link to="/home" className={classes.link}>Home</Link></li>
+               
                
                 </ul>
             </header>
