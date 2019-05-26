@@ -44,19 +44,26 @@ class Register extends Component {
         const error = this.state.authError ? (
             <p>bad credentials, try again</p>
           ) : null;
- 
+
           return (
-      
-         
+
+         <div>
+             <div className={classes.homeWrapper}>
+                 <Menu />
+
+             </div>
+
+
          <div className={classes.outerdiv}>
-        
-            <RegisterForm 
-                change={(event) => this.handleChange(event)} 
-                submit={this.handleSubmit}  
+
+            <RegisterForm
+                change={(event) => this.handleChange(event)}
+                submit={this.handleSubmit}
             />
-            
+
             <div className={classes.error}>{error}</div>
         </div>
+         </div>
      );
         
     }

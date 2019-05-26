@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import axios from "axios";
 import LoginForm from "./LoginForm/LoginForm";
 import classes from "./Login.css";
+import Menu from "../Register/Menu/Menu";
 
 class Login extends Component {
     state = {
@@ -62,6 +63,12 @@ class Login extends Component {
           ) : null;
 
           return (
+<div>
+              <div className={classes.homeWrapper}>
+                  <Menu />
+
+              </div>
+
         <div className={classes.outerdiv}>
             <LoginForm 
                 change={this.handleChange} 
@@ -69,6 +76,7 @@ class Login extends Component {
             />
             <div className={classes.error}>{error}</div>
         </div>
+    </div>
           );
         
     }

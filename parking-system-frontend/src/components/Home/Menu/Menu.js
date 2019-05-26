@@ -10,7 +10,9 @@ class Menu extends Component {
                 <ul>
                 <li><Link to="/register" className={classes.link}>Register</Link></li>
                 <li><Link to="/login" className={classes.link}>Login</Link></li>
-               
+                    <li><Link to="/report" className={classes.link}>Report</Link></li>
+                    <li><Link to="/user" className={classes.link}>User</Link></li>
+                    <li><Link to="/parkingmap" className={classes.link}>ParkingMap</Link></li>
                 </ul>
             </header>
         );
