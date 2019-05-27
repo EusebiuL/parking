@@ -1,52 +1,71 @@
-.homeWrapper{
-    background-color: mintcream ;
-    color: navy;
-    font:inherit;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-    height: 100vh;
-
+.homeWrapper {
+  background-color: mintcream;
+  color: navy;
+  font: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100vh;
 }
 
-.homeButton{
-
-    border: 1px solid white;
-    padding: 16px !important;
-    background-color: OliveDrab ;    font: inherit;
-    color: white;
-    cursor: pointer;
-    border-radius: 30px;
-    width: 15%;
-    height: 7%;
-    margin-top: 20%;
-    font-family: 'Poppins', sans-serif;
-    justify-content: left;
-    margin-left: -35%;
-    text-decoration: none;
-
+.homeButton {
+  border: 1px solid white;
+  padding: 16px !important;
+  background-color: OliveDrab;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+  width: 15%;
+  height: 7%;
+  margin-top: 20%;
+  font-family: "Poppins", sans-serif;
+  justify-content: left;
+  margin-left: -35%;
+  text-decoration: none;
 }
 
-.homeButton:hover{
-    color: #1750A4;
-    background-color: white;
-    border: 1px solid navy;
-
+.homeButton:hover {
+  color: #1750a4;
+  background-color: white;
+  border: 1px solid navy;
 }
 
-h1{
-    font-family: 'Poppins', sans-serif;
-    font-size:80px;
-    color: navy;
-    width: 40%;
-    margin-left: 15%;
-    margin-top: -5%;
-    text-align: left;
-    font-weight: bold;
-    letter-spacing: 1px;
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 80px;
+  color: navy;
+  width: 40%;
+  margin-left: 15%;
+  margin-top: -5%;
+  text-align: left;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 
 .map {
-    background-color: inherit;
-    
+  background-color: lightblue;
+  width: 100%;
+  height: 92%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+rect {
+  cursor: pointer;
+}
+rect:hover {
+  fill: lightcyan;
+}
+.active{
+    fill: #1750a4;
+}
+.active:hover{
+    fill: #1750a4;
+}
+.mapTitle{
+    width: 100%;
+    margin-top: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
 }
